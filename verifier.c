@@ -1,10 +1,8 @@
 #include "monty.h"
 
-arg_t arg = {0, 0};
-
 /**
   * comment_check - checks if line is a comment.
-  * @line - struct containing line content and number.
+  * @line: struct containing line content and number.
   *
   * Return: true if comment otherwise false.
   */
@@ -54,7 +52,7 @@ bool argument_check(char *token)
 
 /**
   * push_check - check if push opcode is being used and sets
-  * global argument variable if true.
+  * argument variable if true.
   * @line: struct containg line content and number.
   * @opcode: opcode to compare.
   * @meta: struct containing all alocated memory.
